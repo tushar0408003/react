@@ -1,15 +1,14 @@
 import { useState } from 'react'
-
-
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-        <h1 className='bg-blue-600 p-4'>react router</h1>
-
-        <h2 className='text-2xl text-amber-300'>Count is {count}</h2>
+   
     </>
   )
 }
